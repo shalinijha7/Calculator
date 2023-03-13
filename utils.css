@@ -1,0 +1,30 @@
+.text-center{
+    text-align: center;
+    margin: 3px;
+    font-weight: 200px;
+    font-size: 50px;
+}
+h1{
+    color:aliceblue;
+}
+.bg{
+    padding: 10px;
+    width: 380px;
+    background: rgba(64, 42, 152, 0.484);
+    box-shadow: 0 8px 32px 0 rgba(9, 11, 38, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display:flex;
+}
+.flex-col{
+    flex-direction:column ;
+}
+.items-center{
+    align-items: center;
+}

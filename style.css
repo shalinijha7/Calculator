@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding:0;
+  }
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./image/Maths.jpg) ;
+    background-size: cover;
+    filter: brightness(0.98) saturate(1.2);
+    overflow: hidden;
+} 
+.button{
+    padding: 10px 15px;
+    margin: 0 3px;
+    font-size: 2em;
+    border: 2px solid rgba(118, 14, 237, 0.858);
+    border-radius: 10px ;  
+    font-family: 'Roboto', sans-serif;
+    width: 80px;
+    cursor: pointer;
+}
+
+.row{
+    margin: 12px 0;
+}
+:focus{
+    outline: none;
+}
+.row input{
+    padding:20px 5px;
+    text-align: end;
+    font-size: 1.68em;
+    background: rgba(255, 255, 255, 0.84);
+    box-shadow: 0 8px 32px 0 rgba(130, 116, 144, 0.177);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 10px solid rgba(255, 255, 255, 0.206);
+}
